@@ -1,0 +1,38 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "campusconnecttemp",
+          "appId": "1:236689599750:android:ffdfcbd514a9c7b2c08287",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "campusconnecttemp",
+          "configurations": {
+            "android": "1:236689599750:android:ffdfcbd514a9c7b2c08287",
+            "ios": "1:236689599750:ios:c32af1b7449f5ba4c08287",
+            "web": "1:236689599750:web:adf4312d615da275c08287",
+            "windows": "1:236689599750:web:6821828fddcb1bacc08287"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
