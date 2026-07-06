@@ -1,6 +1,8 @@
 # 🎓 CampusConnect
 
-> One app that connects **Students**, **Teachers**, and **ISM (Institution Support / Admin)** on a single campus — chat, mentorship, complaints, notifications, and analytics, all in real time.
+> Real-time campus app connecting **students**, **teachers** & **admin** — chat, mentorship, complaints & analytics. Built with **Flutter + Firebase**.
+
+`flutter` · `firebase` · `firestore` · `dart` · `firebase-auth` · `firebase-cloud-messaging` · `cross-platform` · `campus-app`
 
 🔗 **Live app:** [https://campusconnecttemp.web.app](https://campusconnecttemp.web.app)
 📦 **Repository:** [github.com/ShukuNinja/CampusConnect](https://github.com/ShukuNinja/CampusConnect)
@@ -13,9 +15,9 @@ CampusConnect is a cross‑platform Flutter application (Android · iOS · Web) 
 
 - **👨‍🎓 Students** — find and message teachers, join group chats, raise complaints, and track their status.
 - **👩‍🏫 Teachers** — set their availability/location, mentor students, respond to conversations, and manage groups.
-- **🛡️ ISM (Institution Support / Admin)** — handle complaints, broadcast notifications, and view campus analytics dashboards.
+- **🛡️ ISM (Institution Support / Admin)** — resolve complaints, broadcast notifications, and view live analytics dashboards.
 
-Authentication is backed by **Firebase Auth**, all data lives in **Cloud Firestore** in real time, and push notifications run through **Firebase Cloud Messaging**.
+Everything runs in **real time** on Firebase — **Firebase Auth** for sign-in, **Cloud Firestore** for data, and **Firebase Cloud Messaging** for push notifications — so a message sent, a complaint raised, or a notice broadcast shows up instantly across every device.
 
 ---
 
